@@ -9,3 +9,9 @@ func TestMessage(t *testing.T) {
 		t.Error("Message() =", msg)
 	}
 }
+
+func ExampleSay() {
+	Say()
+	// output:
+	// Hello!
+}
